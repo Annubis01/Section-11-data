@@ -32,4 +32,4 @@ jobs:
           ATHLETE_ID: ${{ secrets.ATHLETE_ID }}
           INTERVALS_KEY: ${{ secrets.INTERVALS_KEY }}
         run: |
-          python3 push.py push --name "${{ github.event.inputs.title }}" --description "${{ github.event.inputs.workout }}" --date "${{ github.event.inputs.date }}" --commit
+          python3 push.py push --commit --name "${{ github.event.inputs.title }}" --description "${{ github.event.inputs.workout }}" --date "${{ github.event.inputs.date }}"
