@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-14T02:03:05.340777",
+    "last_updated": "2026-05-14T05:55:44.029295",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -133,7 +133,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 28.2
+        "value": 31.8
       }
     },
     "signal_summary": {
@@ -203,11 +203,11 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 79.76,
-      "atl": 51.57,
-      "tsb": 28.19,
-      "ramp_rate": -3.16,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "ctl": 78.87,
+      "atl": 47.07,
+      "tsb": 31.8,
+      "ramp_rate": -4.06,
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
       "eftp": 159.8,
@@ -272,7 +272,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 2317,
+      "steps": 4709,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -613,11 +613,12 @@
     },
     "consistency_index": 0.0,
     "consistency_details": {
-      "planned_days": 1,
+      "planned_days": 2,
       "completed_days": 4,
       "matched_days": 0,
       "planned_dates": [
-        "2026-05-13"
+        "2026-05-13",
+        "2026-05-14"
       ],
       "completed_dates": [
         "2026-05-08",
@@ -628,10 +629,8 @@
     },
     "phase_detection": {
       "phase": "Build",
-      "confidence": "medium",
-      "reason_codes": [
-        "NO_PLANNED_WORKOUTS"
-      ],
+      "confidence": "high",
+      "reason_codes": [],
       "basis": {
         "stream_1": {
           "ctl_slope": -5.05,
@@ -640,13 +639,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": null,
-          "hard_sessions_planned": 0,
-          "current_week_hard_days_completed": 0,
-          "current_week_hard_days_total": 0,
+          "planned_tss_delta": 0.4,
+          "hard_sessions_planned": 1,
+          "current_week_hard_days_completed": 2,
+          "current_week_hard_days_total": 3,
           "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.0,
+          "plan_coverage_current_week": 0.33,
           "plan_coverage_next_week": 0.0
         },
         "data_quality": "good",
@@ -658,9 +657,7 @@
       "dossier_agreement": null
     },
     "phase_detected": "Build",
-    "phase_triggers": [
-      "NO_PLANNED_WORKOUTS"
-    ],
+    "phase_triggers": [],
     "seasonal_context": "Build / Early Race Season",
     "benchmark_indoor": {
       "current_ftp": 170,
@@ -682,13 +679,13 @@
     "p_max": 547,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-14T02:03:05.339880",
+    "calculation_timestamp": "2026-05-14T05:55:44.028042",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
       "activities_7d": 5,
       "activities_28d": 14,
-      "planned_workouts_7d": 2,
+      "planned_workouts_7d": 3,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -3424,7 +3421,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 2317,
+      "steps": 4709,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -3435,12 +3432,26 @@
       "readiness": null
     }
   ],
-  "planned_workouts": [],
+  "planned_workouts": [
+    {
+      "id": 110028206,
+      "date": "2026-05-14",
+      "name": "AC Github push",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 100,
+      "duration_hours": 0.82,
+      "duration_formatted": "49m30s",
+      "workout_summary": "15m @98W | 3\u00d72m @243W / 1m rec | 5m @124W | 3\u00d71m @272W / 1m rec | 5m @124W | 3\u00d730s @425W / 1m rec | 5m @76W",
+      "has_terrain": false,
+      "description": "- Warmup 15m 58% \n - 2m 143% \n - 1m 50% \n - 2m 143% \n - 1m 50% \n - 2m 143% \n - 1m 50% \n - Recovery 5m 73% \n - 1m 160% \n - 1m 50% \n - 1m 160% \n - 1m 50% \n - 1m 160% \n - 1m 50% \n - Recovery 5m 73% \n - 30s 250% \n - 1m 50% \n - 30s 250% \n - 1m 50% \n - 30s 250% \n - 1m 50% \n - Cooldown 5m 45%"
+    }
+  ],
   "workout_summary_stats": {
-    "attempted": 0,
-    "success": 0,
+    "attempted": 1,
+    "success": 1,
     "patternA": 0,
-    "patternB": 0,
+    "patternB": 1,
     "bail_no_workout_doc": 0,
     "bail_no_match": 0
   },
