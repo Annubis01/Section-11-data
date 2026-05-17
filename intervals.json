@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-17T12:53:31.172844",
+  "generated_at": "2026-05-17T14:21:08.521867",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -2140,6 +2140,27 @@
           "zone": 1,
           "training_load": 13.89188,
           "decoupling": -26.243149
+        }
+      ]
+    },
+    {
+      "activity_id": "i149080110",
+      "date": "2026-05-17",
+      "type": "VirtualRide",
+      "name": "z2 Block Github Push",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3660,
+          "avg_power": 110,
+          "max_power": 158,
+          "avg_hr": 130,
+          "max_hr": 139,
+          "avg_cadence": 85.14626,
+          "zone": 2,
+          "training_load": 42.751644,
+          "decoupling": 1.7364125
         }
       ]
     }
