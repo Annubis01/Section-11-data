@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-25T11:03:42.818173",
+    "last_updated": "2026-05-25T14:16:48.169914",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -217,7 +217,7 @@
       "atl": 56.21,
       "tsb": 19.25,
       "ramp_rate": -4.55,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
       "eftp": 159.0,
@@ -618,13 +618,14 @@
       },
       "dfa_a1_profile": null
     },
-    "consistency_index": 1.0,
+    "consistency_index": 0.5,
     "consistency_details": {
-      "planned_days": 1,
+      "planned_days": 2,
       "completed_days": 2,
       "matched_days": 1,
       "planned_dates": [
-        "2026-05-19"
+        "2026-05-19",
+        "2026-05-25"
       ],
       "completed_dates": [
         "2026-05-19",
@@ -634,9 +635,7 @@
     "phase_detection": {
       "phase": "Build",
       "confidence": "medium",
-      "reason_codes": [
-        "NO_PLANNED_WORKOUTS"
-      ],
+      "reason_codes": [],
       "basis": {
         "stream_1": {
           "ctl_slope": -3.0,
@@ -645,13 +644,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": null,
-          "hard_sessions_planned": 0,
+          "planned_tss_delta": 0.16,
+          "hard_sessions_planned": 1,
           "current_week_hard_days_completed": 0,
-          "current_week_hard_days_total": 0,
+          "current_week_hard_days_total": 1,
           "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.0,
+          "plan_coverage_current_week": 0.2,
           "plan_coverage_next_week": 0.0
         },
         "data_quality": "good",
@@ -663,9 +662,7 @@
       "dossier_agreement": null
     },
     "phase_detected": "Build",
-    "phase_triggers": [
-      "NO_PLANNED_WORKOUTS"
-    ],
+    "phase_triggers": [],
     "seasonal_context": "Build / Early Race Season",
     "benchmark_indoor": {
       "current_ftp": 170,
@@ -687,13 +684,13 @@
     "p_max": 541,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-25T11:03:42.817225",
+    "calculation_timestamp": "2026-05-25T14:16:48.168694",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
       "activities_7d": 4,
       "activities_28d": 16,
-      "planned_workouts_7d": 1,
+      "planned_workouts_7d": 2,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -3222,11 +3219,25 @@
       "readiness": null
     }
   ],
-  "planned_workouts": [],
+  "planned_workouts": [
+    {
+      "id": 112240159,
+      "date": "2026-05-25",
+      "name": "Vo2max down under",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 69,
+      "duration_hours": 1.02,
+      "duration_formatted": "1h1m",
+      "workout_summary": "10m @76W | 10\u00d720s @192W / 30s rec | 8m @98W | 10\u00d720s @192W / 30s rec | 8m @98W | 10\u00d720s @192W / 30s rec | 10m @76W",
+      "has_terrain": false,
+      "description": "- Warm up 10m 45%\n\n10x\n- Hard 20s 113%\n- Easy 30s 92%\n\n- Recovery 8m 58%\n\n10x\n- Hard 20s 113%\n- Easy 30s 92%\n\n- Recovery 8m 58%\n\n10x\n- Hard 20s 113%\n- Easy 30s 92%\n\n- Cool Down 10m 45%"
+    }
+  ],
   "workout_summary_stats": {
-    "attempted": 0,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 1,
+    "success": 1,
+    "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 0,
     "bail_no_match": 0
