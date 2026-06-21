@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-21T07:04:30.322957",
+    "last_updated": "2026-06-21T10:43:41.952099",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -684,7 +684,7 @@
     "p_max": 541,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 53.0,
-    "calculation_timestamp": "2026-06-21T07:04:30.321846",
+    "calculation_timestamp": "2026-06-21T10:43:41.950905",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -702,7 +702,7 @@
       "id": "i159006472",
       "date": "2026-06-21T06:49:22",
       "type": "Ride",
-      "name": "Angono Road Cycling",
+      "name": "Vera\u2019s First Boso-Boso Ride",
       "duration_hours": 3.54,
       "distance_km": 53.88,
       "tss": 78,
