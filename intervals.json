@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T12:01:50.730215",
+  "generated_at": "2026-07-05T14:05:15.179802",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -1691,6 +1691,27 @@
           "avg_cadence": 44.951126,
           "zone": 1,
           "training_load": 3.8791666
+        }
+      ]
+    },
+    {
+      "activity_id": "i162903387",
+      "date": "2026-07-05",
+      "type": "VirtualRide",
+      "name": "Zwift - Endurance Flow",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 4518,
+          "avg_power": 118,
+          "max_power": 150,
+          "avg_hr": 143,
+          "max_hr": 152,
+          "avg_cadence": 86.459114,
+          "zone": 2,
+          "training_load": 60.465813,
+          "decoupling": 0.36466533
         }
       ]
     }
