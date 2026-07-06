@@ -1,83 +1,10 @@
 {
-  "generated_at": "2026-07-05T23:55:04.422311",
+  "generated_at": "2026-07-06T02:02:14.981280",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i159006472",
-      "date": "2026-06-21",
-      "type": "Ride",
-      "name": "Angono Road Cycling",
-      "interval_summary": [
-        "1x 11s 330w",
-        "1x 11s 399w"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1060,
-          "avg_power": 53,
-          "max_power": 386,
-          "avg_hr": 103,
-          "max_hr": 138,
-          "avg_cadence": 45.622356,
-          "zone": 1,
-          "training_load": 5.8594465,
-          "decoupling": -10.558327
-        },
-        {
-          "type": "WORK",
-          "label": "11s@330w73rpm",
-          "duration_secs": 11,
-          "avg_power": 330,
-          "max_power": 388,
-          "avg_hr": 144,
-          "max_hr": 150,
-          "avg_cadence": 72.63636,
-          "zone": 7,
-          "training_load": 0.66610056,
-          "decoupling": 19.57634
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 3542,
-          "avg_power": 48,
-          "max_power": 334,
-          "avg_hr": 106,
-          "max_hr": 152,
-          "avg_cadence": 38.0075,
-          "zone": 1,
-          "training_load": 22.047028,
-          "decoupling": -15.604198
-        },
-        {
-          "type": "WORK",
-          "label": "11s@399w94rpm",
-          "duration_secs": 11,
-          "avg_power": 399,
-          "max_power": 434,
-          "avg_hr": 138,
-          "max_hr": 148,
-          "avg_cadence": 94.181816,
-          "zone": 7,
-          "training_load": 0.41032198,
-          "decoupling": -0.7253088
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 17949,
-          "avg_power": 39,
-          "max_power": 358,
-          "avg_hr": 116,
-          "max_hr": 157,
-          "avg_cadence": 26.510109,
-          "zone": 1,
-          "training_load": 46.14388
-        }
-      ]
-    },
     {
       "activity_id": "i160021015",
       "date": "2026-06-24",
