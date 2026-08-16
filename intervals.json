@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T02:09:23.145136",
+  "generated_at": "2026-08-16T03:10:12.790748",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -1435,6 +1435,26 @@
           "zone": 1,
           "training_load": 0.72486734,
           "decoupling": 17.467897
+        }
+      ]
+    },
+    {
+      "activity_id": "i176270815",
+      "date": "2026-08-16",
+      "type": "Ride",
+      "name": "Angono Road Cycling",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 14169,
+          "avg_power": 46,
+          "max_power": 540,
+          "avg_hr": 120,
+          "max_hr": 182,
+          "avg_cadence": 29.125963,
+          "zone": 1,
+          "training_load": 61.57526
         }
       ]
     }
