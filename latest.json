@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-23T06:00:29.942167",
+    "last_updated": "2026-08-23T06:57:46.291411",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -655,7 +655,7 @@
     "p_max": 603,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 51.0,
-    "calculation_timestamp": "2026-08-23T06:00:29.941227",
+    "calculation_timestamp": "2026-08-23T06:57:46.290175",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 2,
@@ -673,7 +673,7 @@
       "id": "i178751789",
       "date": "2026-08-23T06:07:50",
       "type": "Ride",
-      "name": "Angono Road Cycling",
+      "name": "Slow heavy gearing day",
       "duration_hours": 3.64,
       "distance_km": 82.82,
       "tss": 233,
