@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-05T20:20:31.981481",
+    "last_updated": "2026-09-05T22:07:19.315919",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -676,7 +676,7 @@
     "p_max": 636,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-09-05T20:20:31.980190",
+    "calculation_timestamp": "2026-09-05T22:07:19.314757",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -694,7 +694,7 @@
       "id": "i183566963",
       "date": "2026-09-05T19:08:38",
       "type": "VirtualRide",
-      "name": "2h30 endurance ride",
+      "name": "Zwift - Intervals icu: 1H30 endurance ride",
       "duration_hours": 1.51,
       "distance_km": 49.18,
       "tss": 75,
@@ -767,7 +767,7 @@
       },
       "has_intervals": true,
       "has_dfa": false,
-      "description": "\ud83d\uddfa\ufe0f Tempus Fugit in Watopia"
+      "description": "\ud83d\uddfa\ufe0f Tempus Fugit in Watopia\n\nEndurance | 90min @ 119W"
     },
     {
       "id": "i182898350",
