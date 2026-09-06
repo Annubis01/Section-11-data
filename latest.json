@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-06T06:30:21.074735",
+    "last_updated": "2026-09-06T11:19:29.582251",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -638,7 +638,7 @@
           "current_week_hard_days_completed": 3,
           "current_week_hard_days_total": 3,
           "race_proximity": null,
-          "next_week_load": 0.93,
+          "next_week_load": 0.9,
           "plan_coverage_current_week": 0.0,
           "plan_coverage_next_week": 3.0
         },
@@ -673,7 +673,7 @@
     "p_max": 636,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 50.0,
-    "calculation_timestamp": "2026-09-06T06:30:21.073504",
+    "calculation_timestamp": "2026-09-06T11:19:29.581132",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -2488,16 +2488,16 @@
     {
       "id": 133373484,
       "date": "2026-09-08",
-      "name": "3x12m sweet spot",
+      "name": "3x12m Zone 3",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 78,
+      "planned_tss": 72,
       "duration_hours": 1.25,
       "duration_formatted": "1h15m",
-      "workout_summary": "5m @90W | 7m @110W | 2\u00d71m @145W / 1m rec | 3\u00d712m @155W / 5m rec | 8m @85W",
+      "workout_summary": "5m @90W | 7m @110W | 2\u00d71m @130W / 1m rec | 3\u00d712m @148W / 5m rec | 8m @85W",
       "has_terrain": false,
       "indoor": true,
-      "description": "Warmup\n- 5m 90w easy\n- 7m 110w build\n\nActivation 2x\n- 1m 145w\n- 1m 90w easy\n\nMain Set 3x\n- 12m 150-160w controlled\n- 5m 95w recovery\n\nCooldown\n- 8m 85w easy"
+      "description": "Warmup\n- 5m 90w easy\n- 7m 110w build\n\nActivation 2x\n- 1m 130w\n- 1m 90w easy\n\nMain Set 3x\n- 12m 145-150w controlled\n- 5m 95w recovery\n\nCooldown\n- 8m 85w easy"
     },
     {
       "id": 134144612,
