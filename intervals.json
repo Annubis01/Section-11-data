@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T05:19:16.539551",
+  "generated_at": "2026-09-15T10:13:06.414767",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -3754,6 +3754,24 @@
           "zone": 2,
           "training_load": 1.1391417,
           "decoupling": 11.151598
+        }
+      ]
+    },
+    {
+      "activity_id": "i186815563",
+      "date": "2026-09-15",
+      "type": "GravelRide",
+      "name": "San Antonio Gravel/Unpaved Cycling",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1800,
+          "avg_power": 168,
+          "max_power": 257,
+          "avg_cadence": 65.72727,
+          "zone": 4,
+          "training_load": 0.24913494
         }
       ]
     }
