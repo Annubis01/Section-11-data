@@ -1,31 +1,10 @@
 {
-  "generated_at": "2026-09-16T23:04:03.703933",
+  "generated_at": "2026-09-17T01:21:03.663519",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i182486269",
-      "date": "2026-09-02",
-      "type": "VirtualRide",
-      "name": "45m recovery spin",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 2720,
-          "avg_power": 115,
-          "max_power": 163,
-          "avg_hr": 135,
-          "max_hr": 145,
-          "avg_cadence": 66.91078,
-          "zone": 2,
-          "training_load": 34.19382,
-          "decoupling": 3.6641095
-        }
-      ]
-    },
     {
       "activity_id": "i182898350",
       "date": "2026-09-03",
