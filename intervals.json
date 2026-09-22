@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T15:04:03.214450",
+  "generated_at": "2026-09-22T18:50:43.655052",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -5575,6 +5575,144 @@
           "avg_cadence": 25.201347,
           "zone": 1,
           "training_load": 25.902369
+        }
+      ]
+    },
+    {
+      "activity_id": "i189234629",
+      "date": "2026-09-22",
+      "type": "VirtualRide",
+      "name": "15min Varied Tempo #2",
+      "interval_summary": [
+        "3x 4m50s 151w",
+        "1x 4m57s 131w",
+        "1x 14m46s 138w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 738,
+          "avg_power": 110,
+          "max_power": 430,
+          "avg_hr": 122,
+          "max_hr": 139,
+          "avg_cadence": 85.60434,
+          "zone": 2,
+          "training_load": 9.544913,
+          "decoupling": 5.7610893
+        },
+        {
+          "type": "WORK",
+          "label": "290s@151w84rpm",
+          "duration_secs": 280,
+          "avg_power": 152,
+          "max_power": 181,
+          "avg_hr": 145,
+          "max_hr": 156,
+          "avg_cadence": 88.067856,
+          "zone": 3,
+          "training_load": 6.1363707,
+          "decoupling": 8.833669
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 194,
+          "avg_power": 102,
+          "max_power": 154,
+          "avg_hr": 131,
+          "max_hr": 156,
+          "avg_cadence": 87.77319,
+          "zone": 2,
+          "training_load": 2.2154114,
+          "decoupling": -18.756264
+        },
+        {
+          "type": "WORK",
+          "label": "290s@151w84rpm",
+          "duration_secs": 291,
+          "avg_power": 149,
+          "max_power": 169,
+          "avg_hr": 147,
+          "max_hr": 158,
+          "avg_cadence": 81.93471,
+          "zone": 3,
+          "training_load": 6.126551,
+          "decoupling": 12.404522
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 4,
+          "avg_power": 135,
+          "max_power": 141,
+          "avg_hr": 157,
+          "max_hr": 157,
+          "avg_cadence": 76.75,
+          "zone": 3,
+          "training_load": 0.08421376,
+          "decoupling": 3.9711192
+        },
+        {
+          "type": "WORK",
+          "label": "297s@131w79rpm",
+          "duration_secs": 297,
+          "avg_power": 131,
+          "max_power": 144,
+          "avg_hr": 151,
+          "max_hr": 157,
+          "avg_cadence": 78.99326,
+          "zone": 3,
+          "training_load": 4.9739795,
+          "decoupling": -1.3657104
+        },
+        {
+          "type": "WORK",
+          "label": "290s@151w84rpm",
+          "duration_secs": 298,
+          "avg_power": 151,
+          "max_power": 164,
+          "avg_hr": 158,
+          "max_hr": 162,
+          "avg_cadence": 82.832214,
+          "zone": 3,
+          "training_load": 6.444637,
+          "decoupling": 1.6018748
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 316,
+          "avg_power": 104,
+          "max_power": 148,
+          "avg_hr": 130,
+          "max_hr": 160,
+          "avg_cadence": 82.97785,
+          "zone": 2,
+          "training_load": 3.4773972,
+          "decoupling": -21.35565
+        },
+        {
+          "type": "WORK",
+          "label": "886s@138w87rpm",
+          "duration_secs": 886,
+          "avg_power": 138,
+          "max_power": 170,
+          "avg_hr": 153,
+          "max_hr": 163,
+          "avg_cadence": 86.91648,
+          "zone": 3,
+          "training_load": 16.453678,
+          "decoupling": -1.6680492
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 286,
+          "avg_power": 119,
+          "max_power": 141,
+          "avg_hr": 146,
+          "max_hr": 160,
+          "avg_cadence": 87.72028,
+          "zone": 2,
+          "training_load": 4.1588755,
+          "decoupling": -7.760106
         }
       ]
     }
