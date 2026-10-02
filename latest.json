@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-02T00:44:03.497299",
+    "last_updated": "2026-10-02T06:14:27.870502",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -234,10 +234,10 @@
       }
     },
     "current_metrics": {
-      "weight_kg": 57.0,
+      "weight_kg": 56.5,
       "display": {
         "weight": {
-          "value": 57.0,
+          "value": 56.5,
           "unit": "kg"
         }
       },
@@ -274,27 +274,27 @@
       "readiness": null
     },
     "weight": {
-      "weight_latest_kg": 57.0,
-      "weight_latest_date": "2026-10-01",
-      "wkg_current": 2.98,
+      "weight_latest_kg": 56.5,
+      "weight_latest_date": "2026-10-02",
+      "wkg_current": 3.01,
       "wkg_ftp_source": "tested",
       "ftp_setting_date": "2026-05-13",
       "wkg_block_start": 2.98,
-      "wkg_block_end": 2.98,
-      "wkg_block_delta": 0.0,
-      "weight_7d_avg_kg": 57.0,
-      "weight_28d_slope_kg_per_week": 0.096,
+      "wkg_block_end": 3.01,
+      "wkg_block_delta": 0.03,
+      "weight_7d_avg_kg": 56.9,
+      "weight_28d_slope_kg_per_week": 0.034,
       "display": {
         "weight_latest": {
-          "value": 57.0,
+          "value": 56.5,
           "unit": "kg"
         },
         "weight_7d_avg": {
-          "value": 57.0,
+          "value": 56.9,
           "unit": "kg"
         },
         "weight_28d_slope_per_week": {
-          "value": 0.096,
+          "value": 0.034,
           "unit": "kg/week"
         }
       }
@@ -504,92 +504,92 @@
           "start": "2026-08-22",
           "end": "2026-10-02"
         },
-        "weight_kg": 57.0,
+        "weight_kg": 56.5,
         "weight_source": "wellness_recent",
         "cycling": {
           "anchors": {
             "300s": {
               "actual_watts": 203,
-              "actual_wpkg": 3.56,
+              "actual_wpkg": 3.59,
               "actual_hr": 188,
               "pct_lthr": 105.0,
               "source": "observed_outdoor",
               "coggan_watts": 180,
-              "coggan_wpkg": 3.16,
+              "coggan_wpkg": 3.19,
               "cp_model_watts": 220,
-              "cp_model_wpkg": 3.86,
+              "cp_model_wpkg": 3.89,
               "model_divergence_pct": -7.7
             },
             "600s": {
               "actual_watts": 183,
-              "actual_wpkg": 3.21,
+              "actual_wpkg": 3.24,
               "actual_hr": 186,
               "pct_lthr": 103.9,
               "source": "observed_outdoor",
               "coggan_watts": 165,
-              "coggan_wpkg": 2.89,
+              "coggan_wpkg": 2.92,
               "cp_model_watts": 195,
-              "cp_model_wpkg": 3.42,
+              "cp_model_wpkg": 3.45,
               "model_divergence_pct": -6.2
             },
             "1200s": {
               "actual_watts": 167,
-              "actual_wpkg": 2.93,
+              "actual_wpkg": 2.96,
               "actual_hr": 183,
               "pct_lthr": 102.2,
               "source": "observed_outdoor",
               "coggan_watts": 158,
-              "coggan_wpkg": 2.77,
+              "coggan_wpkg": 2.8,
               "cp_model_watts": 182,
-              "cp_model_wpkg": 3.19,
+              "cp_model_wpkg": 3.22,
               "model_divergence_pct": -8.2
             },
             "1800s": {
               "actual_watts": 162,
-              "actual_wpkg": 2.84,
+              "actual_wpkg": 2.87,
               "actual_hr": 178,
               "pct_lthr": 99.4,
               "source": "observed_outdoor",
               "coggan_watts": 153,
-              "coggan_wpkg": 2.68,
+              "coggan_wpkg": 2.71,
               "cp_model_watts": 178,
-              "cp_model_wpkg": 3.12,
+              "cp_model_wpkg": 3.15,
               "model_divergence_pct": -9.0
             },
             "3600s": {
               "actual_watts": 150,
-              "actual_wpkg": 2.63,
+              "actual_wpkg": 2.65,
               "actual_hr": 173,
               "pct_lthr": 96.6,
               "source": "observed_outdoor",
               "coggan_watts": 146,
-              "coggan_wpkg": 2.56,
+              "coggan_wpkg": 2.58,
               "cp_model_watts": 174,
-              "cp_model_wpkg": 3.05,
+              "cp_model_wpkg": 3.08,
               "model_divergence_pct": -13.8
             },
             "5400s": {
               "actual_watts": 143,
-              "actual_wpkg": 2.51,
+              "actual_wpkg": 2.53,
               "actual_hr": 167,
               "pct_lthr": 93.3,
               "source": "observed_outdoor",
               "coggan_watts": 139,
-              "coggan_wpkg": 2.44,
+              "coggan_wpkg": 2.46,
               "cp_model_watts": 173,
-              "cp_model_wpkg": 3.04,
+              "cp_model_wpkg": 3.06,
               "model_divergence_pct": -17.3
             },
             "7200s": {
               "actual_watts": 141,
-              "actual_wpkg": 2.47,
+              "actual_wpkg": 2.5,
               "actual_hr": 164,
               "pct_lthr": 91.6,
               "source": "observed_outdoor",
               "coggan_watts": 133,
-              "coggan_wpkg": 2.33,
+              "coggan_wpkg": 2.35,
               "cp_model_watts": 172,
-              "cp_model_wpkg": 3.02,
+              "cp_model_wpkg": 3.04,
               "model_divergence_pct": -18.0
             }
           },
@@ -676,7 +676,7 @@
     "p_max": 688,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-02T00:44:03.496084",
+    "calculation_timestamp": "2026-10-02T06:14:27.869263",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 5,
@@ -3576,9 +3576,12 @@
     },
     {
       "date": "2026-10-02",
-      "weight_kg": null,
+      "weight_kg": 56.5,
       "display": {
-        "weight": null
+        "weight": {
+          "value": 56.5,
+          "unit": "kg"
+        }
       },
       "resting_hr": null,
       "hrv_rmssd": null,
