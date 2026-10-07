@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T05:52:07.706890",
+  "generated_at": "2026-10-07T12:13:48.775410",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -3052,6 +3052,69 @@
           "zone": 1,
           "training_load": 6.0688944,
           "decoupling": 13.9352
+        }
+      ]
+    },
+    {
+      "activity_id": "i194644458",
+      "date": "2026-10-07",
+      "type": "VirtualRide",
+      "name": "TrainingPeaks Virtual - Workout: Zone 2 Spinning",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3230,
+          "avg_power": 107,
+          "max_power": 176,
+          "avg_hr": 104,
+          "max_hr": 117,
+          "avg_cadence": 93.562325,
+          "zone": 2,
+          "training_load": 36.211765,
+          "decoupling": -3.507123
+        }
+      ]
+    },
+    {
+      "activity_id": "i194625164",
+      "date": "2026-10-07",
+      "type": "VirtualRide",
+      "name": "TrainingPeaks Virtual - Workout: Zone 2 Spinning",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 704,
+          "avg_power": 91,
+          "max_power": 126,
+          "avg_hr": 99,
+          "max_hr": 113,
+          "avg_cadence": 86.98408,
+          "zone": 1,
+          "training_load": 5.7191386,
+          "decoupling": -7.9064074
+        }
+      ]
+    },
+    {
+      "activity_id": "i194619742",
+      "date": "2026-10-07",
+      "type": "VirtualRide",
+      "name": "MyWhoosh - Zone 2 Spinning",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1829,
+          "avg_power": 97,
+          "max_power": 138,
+          "avg_hr": 108,
+          "max_hr": 118,
+          "avg_cadence": 90.872604,
+          "zone": 2,
+          "training_load": 17.93313,
+          "decoupling": -22.130503
         }
       ]
     }
