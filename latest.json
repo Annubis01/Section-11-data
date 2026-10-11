@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-11T07:25:02.903764",
+    "last_updated": "2026-10-11T14:14:49.499783",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -273,7 +273,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 2681,
+      "steps": 5085,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -683,7 +683,7 @@
     "p_max": 688,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 55.0,
-    "calculation_timestamp": "2026-10-11T07:25:02.902443",
+    "calculation_timestamp": "2026-10-11T14:14:49.498607",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -701,7 +701,7 @@
       "id": "i195964901",
       "date": "2026-10-11T07:01:18",
       "type": "GravelRide",
-      "name": "Mabalacat Gravel/Unpaved Cycling",
+      "name": "Gravelton Track Read",
       "duration_hours": 3.29,
       "distance_km": 81.31,
       "tss": 229,
@@ -896,7 +896,8 @@
           }
         }
       },
-      "weather_status": "unavailable"
+      "weather_status": "unavailable",
+      "description": "Mixed | 3h15min @ 125W"
     },
     {
       "id": "i195284472",
@@ -4138,7 +4139,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 2681,
+      "steps": 5085,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
