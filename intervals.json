@@ -1,31 +1,10 @@
 {
-  "generated_at": "2026-10-13T23:08:55.425141",
+  "generated_at": "2026-10-14T01:51:52.734650",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i191548572",
-      "date": "2026-09-29",
-      "type": "VirtualRide",
-      "name": "60 Min Aerobic Z2",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 3606,
-          "avg_power": 113,
-          "max_power": 164,
-          "avg_hr": 117,
-          "max_hr": 126,
-          "avg_cadence": 95.381584,
-          "zone": 2,
-          "training_load": 45.824802,
-          "decoupling": -1.62801
-        }
-      ]
-    },
     {
       "activity_id": "i192080915",
       "date": "2026-10-01",
