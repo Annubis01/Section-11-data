@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T13:02:16.982324",
+  "generated_at": "2026-10-19T19:16:41.921029",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -2397,6 +2397,27 @@
           "zone": 2,
           "training_load": 25.12,
           "decoupling": 0.32576808
+        }
+      ]
+    },
+    {
+      "activity_id": "i199045954",
+      "date": "2026-10-19",
+      "type": "VirtualRide",
+      "name": "Active Recovery Flush",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1809,
+          "avg_power": 107,
+          "max_power": 180,
+          "avg_hr": 115,
+          "max_hr": 124,
+          "avg_cadence": 88.741295,
+          "zone": 2,
+          "training_load": 19.49454,
+          "decoupling": -7.385805
         }
       ]
     }
