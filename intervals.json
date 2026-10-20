@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T11:30:31.086465",
+  "generated_at": "2026-10-20T15:49:18.603260",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -2418,6 +2418,27 @@
           "zone": 2,
           "training_load": 19.49454,
           "decoupling": -7.385805
+        }
+      ]
+    },
+    {
+      "activity_id": "i199554921",
+      "date": "2026-10-20",
+      "type": "VirtualRide",
+      "name": "MyWhoosh - Aerobic Touch",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2712,
+          "avg_power": 105,
+          "max_power": 162,
+          "avg_hr": 118,
+          "max_hr": 134,
+          "avg_cadence": 96.032814,
+          "zone": 2,
+          "training_load": 28.691853,
+          "decoupling": -10.881128
         }
       ]
     }
