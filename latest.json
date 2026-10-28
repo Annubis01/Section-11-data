@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-28T01:53:17.004685",
+    "last_updated": "2026-10-28T07:40:42.928915",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -208,7 +208,7 @@
       "atl": 31.61,
       "tsb": 26.0,
       "ramp_rate": -7.11,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
       "eftp": 170.8,
@@ -607,15 +607,16 @@
       },
       "dfa_a1_profile": null
     },
-    "consistency_index": 0.33,
+    "consistency_index": 0.25,
     "consistency_details": {
-      "planned_days": 3,
+      "planned_days": 4,
       "completed_days": 2,
       "matched_days": 1,
       "planned_dates": [
         "2026-10-22",
         "2026-10-24",
-        "2026-10-27"
+        "2026-10-27",
+        "2026-10-28"
       ],
       "completed_dates": [
         "2026-10-23",
@@ -634,13 +635,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.76,
-          "hard_sessions_planned": 2,
+          "planned_tss_delta": 1.03,
+          "hard_sessions_planned": 3,
           "current_week_hard_days_completed": 0,
-          "current_week_hard_days_total": 2,
+          "current_week_hard_days_total": 3,
           "race_proximity": null,
           "next_week_load": 0.96,
-          "plan_coverage_current_week": 0.6,
+          "plan_coverage_current_week": 0.8,
           "plan_coverage_next_week": 1.0
         },
         "data_quality": "good",
@@ -674,13 +675,13 @@
     "p_max": 679,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-28T01:53:17.003404",
+    "calculation_timestamp": "2026-10-28T07:40:42.927627",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 5,
       "activities_7d": 2,
       "activities_28d": 18,
-      "planned_workouts_7d": 3,
+      "planned_workouts_7d": 4,
       "ftp_history_days": {
         "indoor": 168,
         "outdoor": 168
@@ -3609,6 +3610,19 @@
   ],
   "planned_workouts": [
     {
+      "id": 149129860,
+      "date": "2026-10-28",
+      "name": "Outdoor Steam Release",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 69,
+      "duration_hours": 1.27,
+      "duration_formatted": "1h16m",
+      "workout_summary": "15m @88W | 3\u00d78m @160W / 4m rec | 15m @122W | 10m @88W",
+      "has_terrain": false,
+      "description": "Warmup\n- 15m 88w easy spin\n\nMain Set 3x\n- 8m 154-165w sweet spot, smooth\n- 4m 88w Z1 easy\n\nMain Set\n- 15m 122w endurance finish\n\nCooldown\n- 10m 88w spin down"
+    },
+    {
       "id": 148960703,
       "date": "2026-10-29",
       "name": "3x8m sweet spot @ 154-165W",
@@ -3888,9 +3902,9 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 22,
-    "success": 11,
-    "patternA": 11,
+    "attempted": 23,
+    "success": 12,
+    "patternA": 12,
     "patternB": 0,
     "bail_no_workout_doc": 0,
     "bail_no_match": 11
