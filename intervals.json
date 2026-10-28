@@ -1,31 +1,10 @@
 {
-  "generated_at": "2026-10-27T22:50:55.573156",
+  "generated_at": "2026-10-28T01:53:17.000019",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i196848561",
-      "date": "2026-10-13",
-      "type": "VirtualRide",
-      "name": "MyWhoosh - Z2",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 2955,
-          "avg_power": 112,
-          "max_power": 193,
-          "avg_hr": 108,
-          "max_hr": 118,
-          "avg_cadence": 97.3956,
-          "zone": 2,
-          "training_load": 34.832817,
-          "decoupling": -2.9680386
-        }
-      ]
-    },
     {
       "activity_id": "i197789402",
       "date": "2026-10-16",
