@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T07:38:39.560703",
+  "generated_at": "2026-11-04T15:44:30.308129",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -2447,6 +2447,27 @@
           "zone": 2,
           "training_load": 6.012916,
           "decoupling": -9.851217
+        }
+      ]
+    },
+    {
+      "activity_id": "i205699322",
+      "date": "2026-11-04",
+      "type": "VirtualRide",
+      "name": "50m endurance spin",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3003,
+          "avg_power": 114,
+          "max_power": 141,
+          "avg_hr": 137,
+          "max_hr": 143,
+          "avg_cadence": 88.49251,
+          "zone": 2,
+          "training_load": 35.39863,
+          "decoupling": 2.8122199
         }
       ]
     }
