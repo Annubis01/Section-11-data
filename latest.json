@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-07T01:29:52.993740",
+    "last_updated": "2026-11-07T07:37:02.965448",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -664,7 +664,7 @@
     "p_max": 678,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-07T01:29:52.992891",
+    "calculation_timestamp": "2026-11-07T07:37:02.964238",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 2,
@@ -682,7 +682,7 @@
       "id": "i206785810",
       "date": "2026-11-07T06:03:59",
       "type": "GravelRide",
-      "name": "Gravel endurance + 3x10m sweet spot",
+      "name": "Slow Wet Gravel Ride",
       "duration_hours": 1.08,
       "distance_km": 20.88,
       "tss": 103,
@@ -849,7 +849,8 @@
           }
         }
       },
-      "weather_status": "unavailable"
+      "weather_status": "unavailable",
+      "description": "Mixed | 8 surges @ 318-389W"
     },
     {
       "id": "i205699322",
